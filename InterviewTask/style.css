@@ -37,14 +37,16 @@ ul {
   padding: 0;
 }
 
-.grid-container li{
-  align-items: center;
-  width: 31.2%; 
-  margin: 5px;
+grid-container li {
+  width: calc(33% - 20px);
+  margin-bottom: 20px;
   float: left;
   padding: 10px;
-  border-radius: 10px; 
-  box-shadow: 0 0 3px rgb(152, 99, 99); 
+  border-style: solid;
+  border-color: rgb(241, 241, 241);
+  border-width: 1px;
+  border-radius: 10px;
+  background: rgb(241, 241, 241);
 }
 
 .grid-container p, h2, #blog-list a {
